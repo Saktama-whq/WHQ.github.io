@@ -1,35 +1,33 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wuhuiqin个人Github博客页面</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
 </head>
 <body>
-    <div class="container">
-        <header class="page-header">
-            <h1>wuhuiqin个人网站 <small>Github Pages</small></h1>
-            <p>这里是wuhuiqin的个人网站，更多信息请往下继续浏览，站点由Github Pages提供！</p>
-        </header>
-        <section>
-            <h3>CSDN专栏文章</h3>
-            <ul class="list-group">
-                <!-- 修改链接的类以匹配主题样式 -->
-                <li class="list-group-item"><a class="text-muted" href="https://blog.csdn.net/wangzirui32/category_10745800.html">Python</a></li>
-                <!-- ... 其他列表项 ... -->
-            </ul>
-        </section>
-        <section>
-            <h3>其他资源</h3>
-            <div class="links">
-                <!-- 修改按钮的类以匹配主题样式 -->
-                <a href="https://github.com/wangzirui32" class="btn btn-secondary">Github</a>
-                <!-- ... 其他按钮 ... -->
-            </div>
-        </section>
-    </div>
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="https://blog.csdn.net/your_csdn_username" class="btn btn-primary">我的CSDN</a></li>
+      <li><a href="https://gitee.com/your_gitee_username" class="btn btn-secondary">我的Gitee</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Blog content goes here -->
+  </main>
+
+  <footer>
+    <!-- Footer content goes here -->
+  </footer>
 </body>
 </html>
